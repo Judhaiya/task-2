@@ -157,7 +157,20 @@ form input{
 
 
 
-    
+@media only screen and (max-width: 1200px){
+    .features{
+        display:grid;
+        grid-template-columns:auto auto  ;
+        margin:2rem 2rem 0 3rem;
+        border:1px solid lightgrey;
+        padding:2rem;
+    }
+    .popular-grid-wrapper{
+        display:grid;
+        grid-template-columns:auto auto auto  ;
+        margin:2rem 2rem 0 2rem;
+    }
+}   
  
 @media only screen and (max-width: 1000px){
     .all-category{
